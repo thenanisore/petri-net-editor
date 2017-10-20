@@ -1,8 +1,9 @@
 # petri-net-decomposer
 
-*Petri Net Decomposer* is an application used to work with Petri nets, a full-function editor and analyzer. The program supports creating and editing Petri Nets, working with marking and firing transitions, basic structural analysis and decomposition into various components (with highlighting and exporting for any further usage). Has some additional functions such as auto-layout and export to text and image files. 
+*Petri Net Decomposer* is an application for working with Petri nets, a minimalist editor capable of simple structural analysis.
 
-The application intended for specialists working with Petri nets and for students studying Process Mining and for those interested in the subject.
+The app was written as a coursework in 2014, so unfortunately it isn't maintained.
+Even though, it does contain some neat graph algorithms, like Kosaraju's, force-directed layout (or rather, my attempt at it) and finding circuits, handles and bridges (described in [this](https://link.springer.com/chapter/10.1007/3-540-53863-1_27) paper). So feel free to use it whatever way you want.
 
 ## Screenshots
 ![App Window](Screenshots/Screenshot_1.png?raw=true "App Window")
