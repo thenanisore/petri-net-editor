@@ -1,0 +1,39 @@
+﻿<Window x:Class="NetEditor.LogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:NetEditor.ViewModels"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+        MinWidth="200" MinHeight="100"
+        Title="Application Log" Height="314" Width="513" Background="#FFF0F0F0">
+    <Window.DataContext>
+        <viewModels:LogViewModel />
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Main textbox -->
+        <Border Padding="5,5,5,0">
+            <TextBox IsReadOnly="True" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" x:Name="LogTextBox"
+            HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="{Binding Log, Mode=OneWay}" VerticalAlignment="Stretch"/>
+        </Border>
+
+        <Border Padding="10" Grid.Row="1">
+            <!-- Bottom panel -->
+            <DockPanel Width="Auto" Height="Auto" HorizontalAlignment="Right"
+                    VerticalAlignment="Top">
+                <Button Content="Export" HorizontalAlignment="Right" Click="Export_OnClick"
+                    VerticalAlignment="Top" Width="75" Margin="0,0,10,0"/>
+                <Button Content="Clear" HorizontalAlignment="Right" Click="Clear_OnClick"
+                    VerticalAlignment="Top" Width="75" Margin="0,0,10,0"/>
+                <Button Content="Close" HorizontalAlignment="Right"
+                    VerticalAlignment="Top" Width="75" Click="Close_Click"/>
+            </DockPanel>
+        </Border>
+    </Grid>
+</Window>

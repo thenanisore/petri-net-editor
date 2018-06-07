@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetriNetLib", "PetriNetLib\PetriNetLib.csproj", "{104240D6-D8F6-4202-9BE4-738809407A57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEditor", "NetEditor\NetEditor.csproj", "{7C9D632D-E790-449B-BD5E-AE8EE3AB4830}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{104240D6-D8F6-4202-9BE4-738809407A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104240D6-D8F6-4202-9BE4-738809407A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104240D6-D8F6-4202-9BE4-738809407A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104240D6-D8F6-4202-9BE4-738809407A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9D632D-E790-449B-BD5E-AE8EE3AB4830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9D632D-E790-449B-BD5E-AE8EE3AB4830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9D632D-E790-449B-BD5E-AE8EE3AB4830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9D632D-E790-449B-BD5E-AE8EE3AB4830}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
