@@ -1,4 +1,4 @@
-# petri-net-editor
+# Petri Net Editor
 
 A minimalist Petri net editor capable of simple structural analysis. It can find circuits, handles and bridges in a Petri net (as described in [this paper](https://link.springer.com/chapter/10.1007/3-540-53863-1_27)).
 
